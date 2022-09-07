@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@id/linearLayout1"
+    android:divider="@drawable/spacer_m"
+    android:showDividers="middle"
+    android:orientation="vertical">
+    <TextView
+        android:text="Name of new plan:"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_text" />
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_input"
+        android:text="newplan"/>
+
+    <TextView
+        android:id="@+id/DateStart_text"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:text="Starting Date: " />
+
+    <EditText
+        android:id="@+id/dateStart_input"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="dd/mm/yyyy" />
+
+    <TextView
+        android:id="@+id/dateEnd_text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ending Date :" />
+
+    <EditText
+        android:id="@+id/dateEnd_input"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="dd/mm/yyyy" />
+
+    <TextView
+        android:id="@+id/money_text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Credit :" />
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/money_input"
+        android:layout_marginRight="0.0dp"
+        android:text="100.00"/>
+    <Button
+        android:text="accept plan"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/money_input"
+        android:id="@+id/acceptPlan_button"
+        android:layout_below="@id/money_input" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:id="@+id/linearLayout2">
+        <Button
+            android:text="Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backtomain_button"/>
+    </LinearLayout>
+
+</LinearLayout>

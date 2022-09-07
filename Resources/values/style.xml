@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme.Custom" parent="MainTheme"><item name="android:colorPrimary">#ff171717</item></style>
+	<style name="Theme.Custom1" parent="MainTheme"><item name="android:colorPrimary">#ff263238</item><item name="android:colorControlNormal">#ff263238</item><item name="android:colorButtonNormal">#ff607d8b</item><item name="android:colorBackground">#ffb0bec5</item><item name="android:windowBackground">?android:attr/colorBackground</item></style>
+</resources>
